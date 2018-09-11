@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
 
-   <head>
-      <title>HTML Target Frames</title>
-   </head>
-	
-   <frameset cols = "200, *">
-      <frame src = "/html/menu.htm" name = "menu_page" />
-      <frame src = "/html/main.htm" name = "main_page" />
-      
-      <noframes>
-         <body>Your browser does not support frames.</body>
-      </noframes>
-   </frameset>
+<frameset rows=" 100%, 25%, 50%, 100% " frameset cols=" 25%, 100%, 50%, 25%">
+    <frame name="top" scrolling = "no"  src="/html/top_frame.htm"></frame> 
+
+    <frame name="left" scrolling = "no"   src="/html/left_frame.htm"></frame>
+
+    <frame name="main" frameborder = "0" src="C:\Users\Joshua\OneDrive - Inter American University of Puerto Rico - Bayamon Campus\Y00557819\listado.html"></frame>
+
+    <frame name="bottom" scrolling = "no" src="/html/bottom_frame.htm"></frame>
+
+    
+
+
+
+</frameset>
 	
 </html>
